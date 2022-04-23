@@ -1,0 +1,43 @@
+package org.taskthree;
+CHILD CLASS"
+*************************
+public class NewAccount extends OldAccount
+{
+public void custId()
+{
+System.out.println("Customer Id is 616");
+}
+public void accountNum()
+{
+System.out.println("Account number is 1234567891011");
+}
+public void customerName()
+{
+System.out.println("Customer Name is LEO");
+}
+public static void main(String[] args)
+{
+NewAccount na=new NewAccount();
+na.custId();
+na.accountNum();
+na.customerName();
+}
+}
+******************************
+Parent Clas:
+******************************
+public class OldAccount
+{
+public void custId()
+{
+System.out.println("Customer Id is 550");
+}
+public void accountNum()
+{
+System.out.println("Account number is 1110987654321"
+}
+public void customerName()
+{
+System.out.println("Customer Name is LEONARD"
+}
+}

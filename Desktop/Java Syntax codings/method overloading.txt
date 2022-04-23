@@ -1,0 +1,22 @@
+public class Travels
+{
+public void seatDetails()
+{
+System.out.println("Seat Details");
+}
+public void seatDetails(int seatNum)
+{
+System.out.println("Seat number is"+seatNum);
+}
+public void seatDetails(String passName)
+{
+System.out.println("Passenger Name is "+passName);
+}
+public static void main(String[] args)
+{
+Travels t=new Travels();
+t.seatDetails();
+t.seatDetails(1);
+t.seatDetails(LEO);
+}
+}
